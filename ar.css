@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap');
+
+
+*{
+    font-family: 'Work Sans', sans-serif;  
+    
+}
+.header1{
+    background-color: rgba(121, 71, 14, 0.1);
+    /* padding: 50px 200px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+nav, .title{
+  title
+    font-weight: 600px;
+    font-size: 30px;
+    
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+   /* margin-left: 50px;
+  border: 1px solid green;  */
+}
+nav li{
+  margin: 30px;
+  list-style: none;
+  font-weight: 500px;
+  font-size: 18px;
+
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+.container-description{
+   max-width: 700px;
+  text-align: center;
+  margin: 0px auto;
+}
+.title{
+font-size: 40px;
+font-weight: 700px;
+
+
+
+}
+.description{
+  font-size: 16px;
+ 
+}
+.primary{
+padding: 15px 25px 15px 25px;
+border-radius: 5px;
+background-color: rgba(255, 144, 14, 1);
+font-size: 15px;
+color: white;
+border: 0;
+
+}
+.container img{
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* mobile deviece */
+@media screen and (max-width:576px) {
+  
+  nav {flex-direction: column;}
+}
+
+/* tablet device */
+@media screen and (min-width:576) and (max-width:990) {
+  
+  
+}
