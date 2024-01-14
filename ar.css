@@ -71,14 +71,93 @@ border: 0;
   width: 100%;
 }
 
+
+.attack, img{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+ padding: 10px;
+ 
+}
+.grid{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.contentend{
+  margin-top: 200px;
+  margin-left: 20px;
+}
+
+.Features{
+margin-left: 50px;
+margin-right: 50px;
+
+
+
+}
+.face, .card{
+  border: 1px solid yellow;
+  text-align: center;
+}
+
+
+.fact{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.card{
+  padding: 15px;
+}
+.last{
+  margin-top: 80px;
+  text-align: center;
+}
+
+
+.lastone{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+}
+
+.lastone img{
+  width: 80%;
+}
+
+
 /* mobile deviece */
 @media screen and (max-width:576px) {
   
-  nav {flex-direction: column;}
+  nav, .grid {flex-direction: column;}
+
+  .attack{
+    grid-template-columns: 1fr;
+
+  }
+.contentend{
+  margin-top: 5px;
+}
+.fact, .card{
+  flex-direction: column;
 }
 
-/* tablet device */
-@media screen and (min-width:576) and (max-width:990) {
-  
-  
+
+
 }
+
+
+/* tablet device */
+@media screen and (min-width:576px) and (max-width:990px) {
+
+  .contentend{
+    flex-direction:column ;
+  }
+  .grid{
+    flex-direction: column;
+  }
+
+
+}  
